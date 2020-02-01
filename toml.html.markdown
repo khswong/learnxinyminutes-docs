@@ -241,7 +241,7 @@ color = "gray"
     }
   ]
 }
-```
+
 # You can create nested arrays of tables as well. Each double-bracketed
 # sub-table will belong to the nearest table element above it.
 
@@ -266,9 +266,11 @@ color = "gray"
   [[fruit.color]]
     name = "yellow"
     note = "I am an array item in banana fruit's table/map"
+    
+
 ```
 
-# In JSON land, this code will be:
+In JSON, this code will be:    
 
 ```json
 {
